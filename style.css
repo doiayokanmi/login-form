@@ -24,21 +24,24 @@
 main, aside {
     position: absolute;
     height: 100%;
+    top: 0;
 }
 
 main {
     width: 60%;
     left: 0;
-    top: 0;
     color: #564758;
+    transition: all 2s ease-in;
+    transform: translateX(0);
 }
 
 aside {
     width: 40%;
     background-color: #564758;
     right: 0;
-    top: 0;
     color: #fff;
+    transition: all 2s ease-out;
+    transform: translateX(0);
 }
 
 main .signup, main .signin {
@@ -132,13 +135,15 @@ aside button {
 }
 
 aside #asidein {
-    /* display: none; */
+    display: none;
 }
 
-.slideRight {
+main.slideRight {
     right: 0;
+    transform: translateX(65%);
 }
 
-.slideLeft {
+aside.slideLeft {
     left: 0;
+    transform: translateX(0%);
 }

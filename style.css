@@ -44,7 +44,7 @@ aside {
     transform: translateX(0);
 }
 
-main .signup, main .signin {
+#signup, #signin {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -57,7 +57,7 @@ main .signup, main .signin {
     align-items: center;
 }
 
-main .signin {
+ #signin {
     display: none;
 }
 
@@ -117,7 +117,7 @@ button {
 }
 
 /* --------Aside Section-------- */
-aside #asideup, aside #asidein {
+#asideup, #asidein {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -134,7 +134,7 @@ aside button {
     color: #564758;
 }
 
-aside #asidein {
+#asidein {
     display: none;
 }
 
